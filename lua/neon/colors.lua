@@ -1,33 +1,33 @@
 local colors = {
-    gray = "#7e8294",
-    gray_alt = "#4C566A",
-    red = "#ec7279",
-    yellow = "#ECBE7B",
-    orange = "#da8548",
-    green = "#a0c980",
-    cyan = "#4db5bd",
-    dark_cyan = "#5699AF",
-    blue = "#6cb6eb",
-    violet = "#a9a1e1",
-    purple = "#d38aea",
-    light_blue = "#ADD8E6",
-    light_pink = "#D8BFD8",
-    disabled = "#676E95",
-    diff_red = "#fb4934",
-    diff_green = "#8ec07c",
-    diff_blue = "#458588",
-    diff_yellow = "#fabd2f",
+    gray = "#e9d2e1",
+    gray_alt = "#4c4c4c",
+    red = "#ffb4ab",
+    yellow = "#aca98a",
+    orange = "#dca1f2",
+    green = "#a9e5e2",
+    cyan = "#c8eae4",
+    dark_cyan = "#9ec3c4",
+    blue = "#fec3de",
+    violet = "#ffb4ab",
+    purple = "#b47ec8",
+    light_blue = "#9bf1f8",
+    light_pink = "#f89beb",
+    disabled = "#a8e6ff",
+    diff_red = "#c49ea0",
+    diff_green = "#9ec49f",
+    diff_blue = "#a39ec4",
+    diff_yellow = "#c4c19e",
     none = "NONE"
 }
 
 function colors.generate()
     if vim.g.neon_style == "default" or vim.g.neon_style == "" then
-        colors.fg = "#c5cdd9"
-        colors.bg0 = "#2b2d37"
-        colors.bg1 = "#333644"
-        colors.bg2 = "#363a49"
-        colors.bg3 = "#3a3e4e"
-        colors.bg4 = "#404455"
+        colors.fg = "#ffffff"
+        colors.bg0 = "#000000"
+        colors.bg1 = "#0a0a0a"
+        colors.bg2 = "#141414"
+        colors.bg3 = "#1e1e1e"
+        colors.bg4 = "#282828"
     elseif vim.g.neon_style == "doom" then
         colors.fg = "#bbc2cf"
         colors.bg0 = "#282c34"
