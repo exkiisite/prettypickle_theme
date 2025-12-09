@@ -1,22 +1,24 @@
 local colors = {
-    gray = "#e9d2e1",
-    gray_alt = "#4c4c4c",
-    red = "#ffb4ab",
-    yellow = "#c4c19e",
-    orange = "#dca1f2",
-    green = "#a9e5e2",
-    cyan = "#c8eae4",
-    dark_cyan = "#9ec3c4",
-    blue = "#fec3de",
-    violet = "#ffb4ab",
-    purple = "#b47ec8",
-    light_blue = "#9bf1f8",
-    light_pink = "#f89beb",
-    disabled = "#a8e6ff",
-    diff_red = "#c49ea0",
-    diff_green = "#9ec49f",
-    diff_blue = "#a39ec4",
-    diff_yellow = "#aca98a",
+    gray = "#e9d2e1",         -- color8 → comments
+    gray_alt = "#4c4c4c",     -- color0 → splits
+    
+    red = "#ffb4ab",          -- color1 → numbers, errors
+    yellow = "#c4c19e",       -- color11 → delimiters
+    orange = "#aca98a",       -- color3 → warnings, structures
+    green = "#a9e5e2",        -- color2 → strings, keywords (aqua/cyan)
+    cyan = "#c8eae4",         -- color6 → types, classes
+    dark_cyan = "#9ec3c4",    -- color14 → darker cyan
+    blue = "#a9e5e2",         -- KEYWORDS → cyan/aqua
+    violet = "#a39ec4",       -- color12 → constants
+    purple = "#cd9dc9",       -- color13 → functions (rose pink)
+    light_blue = "#a8e6ff",   -- color130 → conditionals (sky blue)
+    light_pink = "#a9e5e2",   -- VARIABLES → cyan/aqua (same as keywords!)
+    disabled = "#a8e6ff",     -- line numbers (sky blue)
+    
+    diff_red = "#ffb4ab",
+    diff_green = "#a9e5e2",
+    diff_blue = "#fec3de",
+    diff_yellow = "#c4c19e",
     none = "NONE"
 }
 
