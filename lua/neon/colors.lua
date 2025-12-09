@@ -2,7 +2,7 @@ local colors = {
     gray = "#e9d2e1",
     gray_alt = "#4c4c4c",
     red = "#ffb4ab",
-    yellow = "#aca98a",
+    yellow = "#c4c19e",
     orange = "#dca1f2",
     green = "#a9e5e2",
     cyan = "#c8eae4",
@@ -16,7 +16,7 @@ local colors = {
     diff_red = "#c49ea0",
     diff_green = "#9ec49f",
     diff_blue = "#a39ec4",
-    diff_yellow = "#c4c19e",
+    diff_yellow = "#aca98a",
     none = "NONE"
 }
 
